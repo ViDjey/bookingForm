@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.start {
+  padding: 5% 20%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F0F8FF;
+}
+
+.content {
+  box-shadow: 0 0 10px 5px rgba(222, 222, 222, 1);
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  padding: 10px;
+}
+
+.headForm {
+  text-align: center;
+  margin: 2vh 0;
+  font-size: 24px;
+}
+
+.sendForm {
+  width: 45vw;
+}
+
+.buttonReset {
+  margin-left: 2vw;
+}
+
+.comment {
+  resize: vertical; 
+  width: 100%;
+  min-height: 10vw;
+  padding: 4px 11px;
+  font-size: 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 6px;
+}
+
+.comment:hover,  .comment:focus {
+  border-color: #4096ff;
+}
+
+.comment::placeholder {
+  color:rgba(0, 0, 0, 0.25);
+}
